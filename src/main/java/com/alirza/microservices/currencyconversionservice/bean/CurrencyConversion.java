@@ -23,6 +23,10 @@ public class CurrencyConversion {
 		this.environment = environment;
 	}
 
+	public CurrencyConversion() {
+		super();
+	}
+
 	public Long getId() {
 		return id;
 	}
